@@ -9,4 +9,13 @@ repositories {
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
 }
+
+bootRun.environment([
+        "WELCOME_MESSAGE": "custom variable from gradle build file",
+])
+
+test.environment([
+        "WELCOME_MESSAGE": "Custom gradle build message from test",
+])
