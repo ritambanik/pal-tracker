@@ -18,6 +18,7 @@ public class EnvController {
                          @Value("${CF_INSTANCE_INDEX:NOT SET}") String cfInstanceIndex,
                          @Value("${CF_INSTANCE_ADDR:NOT SET}") String cfInstanceAddr) {
 
+
         env.put("PORT", port);
         env.put("MEMORY_LIMIT", memoryLimit);
         env.put("CF_INSTANCE_INDEX", cfInstanceIndex);

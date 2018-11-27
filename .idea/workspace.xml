@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36ee4505-bfef-4840-a8e6-6542e29c3c9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/EnvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/EnvController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -88,14 +88,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="100" />
-          <entry key="java" value="491" />
+          <entry key="java" value="493" />
+          <entry key="txt" value="16" />
           <entry key="yml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="100" />
-          <entry key="JAVA" value="491" />
+          <entry key="JAVA" value="493" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
@@ -129,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/EnvController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="285">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#954#955#0" expanded="true" />
@@ -143,7 +145,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -552,10 +554,10 @@
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/WelcomeControllerTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/EnvControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/EnvController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/WelcomeController.java" />
         <option value="$PROJECT_DIR$/src/manifest.yml" />
         <option value="$PROJECT_DIR$/manifest.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/EnvController.java" />
       </list>
     </option>
   </component>
@@ -660,7 +662,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543276388371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543332704694" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
   </component>
@@ -806,6 +808,14 @@
       <option name="presentableId" value="Default" />
       <updated>1543250357672</updated>
     </task>
+    <task id="LOCAL-00001" summary="jumpstart travis">
+      <created>1543276626332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543276626332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -855,6 +865,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jumpstart travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="jumpstart travis" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -880,18 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/EnvController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,6 +963,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/EnvController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
