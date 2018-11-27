@@ -1,13 +1,8 @@
 package io.pivotal.pal.tracker;
 
-import org.springframework.http.ResponseEntity;
-
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 
 public class InMemoryTimeEntryRepository implements TimeEntryRepository{
