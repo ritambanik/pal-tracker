@@ -17,8 +17,7 @@ import java.util.List;
 
 public class JdbcTimeEntryRepository implements TimeEntryRepository {
 
-    @Autowired
-    JdbcTemplate jdbcTemplate;
+    private JdbcTemplate jdbcTemplate;
 
     private final RowMapper<TimeEntry> mapper = (rs, rowNum) -> new TimeEntry(
             rs.getLong("id"),

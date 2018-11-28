@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.pivotal.pal.tracker.TimeEntryControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-11-28T16:21:35" hostname="nofx" time="0.074">
+<testsuite name="test.pivotal.pal.tracker.TimeEntryControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-11-28T18:34:48" hostname="nofx" time="0.074">
   <properties/>
-  <testcase name="testList" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.068"/>
-  <testcase name="testRead" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.002"/>
-  <testcase name="testRead_NotFound" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.0"/>
-  <testcase name="testUpdate_NotFound" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.002"/>
+  <testcase name="testList" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.069"/>
+  <testcase name="testRead" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.001"/>
+  <testcase name="testRead_NotFound" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.001"/>
+  <testcase name="testUpdate_NotFound" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.001"/>
   <testcase name="testCreate" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.001"/>
-  <testcase name="testDelete" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.0"/>
-  <testcase name="testUpdate" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.001"/>
+  <testcase name="testDelete" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.001"/>
+  <testcase name="testUpdate" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
