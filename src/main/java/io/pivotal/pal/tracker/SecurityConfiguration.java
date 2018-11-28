@@ -25,16 +25,13 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http
                 .authorizeRequests()
                 .antMatchers("/**").hasRole("USER")
-                .and()
-                .httpBasic()
-                .and()
-                .csrf().disable();
+                .and().httpBasic()
+                .and().csrf().disable();
     }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
-                .withUser("user").password("password").roles("USER");
+                .withUser("user").password("password").roles("USER", "ACTUATOR");
     }
-
 }
