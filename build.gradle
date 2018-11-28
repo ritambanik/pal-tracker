@@ -22,6 +22,8 @@ dependencies {
 
     compile("org.springframework.boot:spring-boot-starter-actuator")
 
+    compile("org.springframework.boot:spring-boot-starter-security")
+
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
@@ -30,6 +32,7 @@ bootRun.environment([
         "WELCOME_MESSAGE": "custom variable from gradle build file",
         "SPRING_DATASOURCE_URL": developmentDbUrl,
         "MANAGEMENT_SECURITY_ENABLED": false,
+        "HTTPS_DISABLED" : true,
 
 ])
 
@@ -38,6 +41,7 @@ test.environment([
         "WELCOME_MESSAGE": "Custom gradle build message from test",
         "SPRING_DATASOURCE_URL": testDbUrl,
         "MANAGEMENT_SECURITY_ENABLED": false,
+        "HTTPS_DISABLED" : true,
 ])
 flyway {
     url = developmentDbUrl
