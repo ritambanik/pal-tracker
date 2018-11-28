@@ -15,7 +15,7 @@ cf ssh -N -L 63306:$ip_address:3306 pal-tracker &
 cf_ssh_pid=$!
 
 echo "Waiting for tunnel"
-sleep 5
+sleep 10
 
 flyway-*/flyway -url="jdbc:mysql://127.0.0.1:63306/$db_name" -locations=filesystem:$2/databases/tracker -user=$db_username -password=$db_password migrate
 

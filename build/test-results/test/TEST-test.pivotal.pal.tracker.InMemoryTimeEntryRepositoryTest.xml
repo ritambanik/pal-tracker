@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-11-27T20:27:01" hostname="nofx" time="0.005">
+<testsuite name="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-11-28T16:21:35" hostname="nofx" time="0.012">
   <properties/>
-  <testcase name="create" classname="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.0"/>
-  <testcase name="delete" classname="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.004"/>
+  <testcase name="create" classname="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.006"/>
+  <testcase name="delete" classname="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.005"/>
   <testcase name="update" classname="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.0"/>
   <testcase name="find" classname="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.0"/>
   <testcase name="list" classname="test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest" time="0.0"/>
